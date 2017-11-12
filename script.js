@@ -11,7 +11,7 @@ $(function () {
 	$("#sidebar_content_2 li:even").css("margin-left", "5px");
 // Clicking on one of the post titles in the main content area replaces the content of the content DIV (with the ID of “content”) with content you specify 
 	$("h2.title").click(function(contentChangeEvent) {
-		$("#content").replaceWith("<h2>Hi, there!</h2><br><p>Thanks for changing me!</p>");
+		$("#content").replaceWith("<h2>Hi, there!</h2><p>Thanks for changing me!</p>");
 	});
 // Clicking on one of the H2 elements in the sidebar toggles visibility of the list below it (toggle)
 	$("#sidebar_content_2 h2").click(function(toggleVisibilityEvent) {
